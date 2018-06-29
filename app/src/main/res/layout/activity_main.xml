@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_data_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/mTargetPieChart"
+                    android:layout_width="145dp"
+                    android:layout_height="145dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp" />
+
+                <RelativeLayout
+                    android:layout_width="145dp"
+                    android:layout_height="145dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/finished_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="70%"
+                        android:textColor="@color/color_ff7000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/target_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp"
+                        android:text="完成率"
+                        android:textColor="@color/color_ff7000"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        <View style="@style/thick_separation_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white">
+
+            <ImageView style="@style/flag_for_sub_title" />
+
+            <TextView
+                android:id="@+id/member_data_text"
+                style="@style/sub_title"
+                android:text="@string/demo_chart" />
+
+            <View style="@style/thin_separation_line" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/line_chart_demo"
+                style="@style/not_fill_button"
+                android:text="@string/line_chart_demo" />
+            <Button
+                android:id="@+id/bar_chart_demo"
+                style="@style/not_fill_button"
+                android:text="@string/bar_chart_demo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/horizontal_bar_chart_demo"
+                style="@style/not_fill_button"
+                android:text="@string/horizontal_bar_chart_demo" />
+            <Button
+                android:id="@+id/pie_chart_demo"
+                style="@style/not_fill_button"
+                android:text="@string/pie_chart_demo" />
+        </LinearLayout>
+
+
+        <View style="@style/thick_separation_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white">
+
+            <ImageView style="@style/flag_for_sub_title" />
+
+            <TextView
+                android:id="@+id/whole_data_analysis"
+                style="@style/sub_title"
+                android:text="@string/whole_data_analysis" />
+
+            <View style="@style/thin_separation_line" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/line_chart"
+                style="@style/not_fill_button"
+                android:text="@string/line_chart_demo" />
+            <Button
+                android:id="@+id/bar_chart"
+                style="@style/not_fill_button"
+                android:text="@string/bar_chart_demo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/horizontal_bar_chart"
+                style="@style/not_fill_button"
+                android:text="@string/horizontal_bar_chart_demo" />
+            <Button
+                android:id="@+id/pie_chart"
+                style="@style/not_fill_button"
+                android:text="@string/single_vip_status" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+

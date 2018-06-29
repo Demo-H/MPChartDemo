@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MPChartDemo</string>
+    <string name="single_vip_count_precent">单店会员消费占比</string>
+    <string name="single_vip_status">单店会员状态分析</string>
+    <string name="single_product_top10">单店产品销售量TOP10</string>
+    <string name="single_product_sale_top10">单店产品销售金额TOP10</string>
+    <string name="single_sale_attribute">单店销售构成</string>
+    <string name="single_main_product">单店主推产品销量</string>
+
+    <string name="store_sale_money_list">门店销售金额排行</string>
+    <string name="store_sale_list">门店销量排行</string>
+    <string name="store_sale_analysis">门店销售趋势分析</string>
+    <string name="store_vip_sale_precent">门店会员消费占比</string>
+    <string name="store_vip_status_analysis">门店会员状态分析</string>
+    <string name="store_sale_attribute">门店销售构成</string>
+    <string name="product_sale_top10">产品销售量TOP10</string>
+    <string name="product_sale_money_top10">产品销售金额TOP10</string>
+    <string name="main_product_list">主推产品销量排行</string>
+
+    <string name="demo_chart">示例图表</string>
+    <string name="whole_data_analysis">整体数据分析</string>
+    <string name="line_chart_demo">线形图</string>
+    <string name="bar_chart_demo">条形图</string>
+    <string name="horizontal_bar_chart_demo">水平条形图</string>
+    <string name="pie_chart_demo">饼状图</string>
+</resources>
