@@ -41,7 +41,7 @@ public class HorBarChartDemoActivity extends BaseActivity {
 
     @Override
     protected void initLayout() {
-// 水平条形图初始化
+        // 水平条形图初始化
         ViewGroup.LayoutParams lp = mHorizontalBarChart.getLayoutParams();
         lp.width = ScreenUtil.getWidth(this);
         lp.height = ScreenUtil.getWidth(this);
